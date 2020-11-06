@@ -13,7 +13,7 @@ for j = 1:M
 		if R < P_i
 			% We get an ignition at point i
 			ignition_results(i,j) = true;
-            total_ignitions = total_ignitions + 1;
+            		total_ignitions = total_ignitions + 1;
 		end
 	end
 end
